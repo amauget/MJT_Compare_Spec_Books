@@ -3,13 +3,13 @@
 Our company was given a new edition of specifications from local Air Force Base that we frequently contract with.
 I was tasked with determining what had changed when comparing the old spec book to the new. 
 Both spec books were provided in PDF file format. 
-### To start, I was told to no exceed half a day coming up with a solution. If I couldn't do so, we would review the spec manually. This was great practice with real life deadlines.
+### To start, I was told to not exceed half a day in working up a solution. If I couldn't do so, we would review the spec manually. This was great practice with real life deadlines.
 
 
 ## Solution
 I saved the PDFS in excel format, isolating each line of text as a singular cell.
 
-I iterated over the 2022 edition and stored each row string value as a key to the 2022 object (or dictionary in VBA terms). The key was stripped of all spaces, grammatical letters, and converted to lowercase to prevent false positives.
+I iterated over the 2022 edition and stored each row string value as a key to the 2022 object (or dictionary in VBA terms). The key was stripped of all spaces, grammatical letters, and converted to lowercase to lessen false positives.
 
 To combat boiler plate for text that exists multiple times within the documents, a dictionary was created for each "section" of the document with nested "key":"value" pairs assigned within for each row of text within said section. 
       Here is an example with javascript syntax:
