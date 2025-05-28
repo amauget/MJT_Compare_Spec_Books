@@ -1,5 +1,8 @@
 # MJT_Compare_Spec_Books
 
+## Here is a snapshot so you don't have to comb through the acutal docs.
+![Screenshot from 2025-05-27 19-23-32](https://github.com/user-attachments/assets/5c3f4075-9a88-4343-9c88-d319493e5ea0)
+
 Our company was given a new edition of specifications from local Air Force Base that we frequently contract with.
 I was tasked with determining what had changed when comparing the old spec book to the new. 
 Both spec books were provided in PDF file format. 
@@ -25,5 +28,4 @@ Next, the 2025 was book was iterated, each row being prepared as a key, and appl
 
 If text changed between editions, the color changes to red. While a touch unrefined, it reliably provides quick access to our project management team.
 
-## Here is a snapshot so you don't have to comb through the acutal docs.
-![Screenshot from 2025-05-27 19-23-32](https://github.com/user-attachments/assets/5c3f4075-9a88-4343-9c88-d319493e5ea0)
+
